@@ -34,11 +34,14 @@ The goal of this project is to perform **exploratory data analysis (EDA)** and v
 - Histograms and boxplots clearly separate benign vs malignant cases.  
 - Strong correlations observed among `radius_mean`, `perimeter_mean`, and `area_mean`.  
 
-*(Insert example plots here if you want)*  
+![Distribution of Mean Radius by Diagnosis - Histogram](images/Histogram.png)
+![Texture Mean by Diagnosis - Boxplot](images/texture-mean-by-diagnosis-boxplot1.png)
+![Concavity Worst by Diagnosis - Boxplot](images/Concavity-Worst-by-Diagnosis-boxplot2.png)
+![Correlation Heatmap](images/heatmap.png)
 
 ## How to Run
 1. Clone this repository  
-2. Open `breast_cancer_analysis.R` in RStudio  
+2. Open `breast_cancer_analysis script.R` in RStudio  
 3. Make sure `data.xlsx` is in the same folder  
 4. Install required packages:  
 
