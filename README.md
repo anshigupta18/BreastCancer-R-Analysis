@@ -1,7 +1,19 @@
 # BreastCancer-R-Analysis
 Analysis of benign vs malignant breast tumors using R.
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)  
+![GitHub last commit](https://img.shields.io/github/last-commit/anshigupta18/BreastCancer-R-Analysis)  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)  
 
-## Project Overview
+---
+
+##  Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Tools & Packages](#tools--packages)
+- [Analysis Steps](#analysis-steps)
+- [Results](#results)
+- [How to Run](#how-to-run)
+## Overview
 This project analyzes a breast cancer dataset to distinguish between **Benign (B)** and **Malignant (M)** tumors.  
 The dataset contains measurements of cell nuclei from breast cancer biopsies, with features such as radius, texture, perimeter, area, smoothness, concavity, and more.  
 
