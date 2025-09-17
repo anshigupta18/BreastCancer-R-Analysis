@@ -53,9 +53,9 @@ The goal of this project is to perform **exploratory data analysis (EDA)** and v
 ![Correlation Heatmap](images/heatmap.png)
 
 ## Data Interpretation
--The histogram shows that malignant tumors tend to have larger cell radii, while benign tumors mostly fall in the smaller range.
--The boxplot of texture mean indicates that malignant tumors generally have higher variation in texture, making them more distinct from benign ones.
--The boxplot of concavity worst reveals that malignant tumors have more irregular and jagged cell edges, while benign ones remain smoother.
+-The histogram shows that malignant tumors tend to have larger cell radii, while benign tumors mostly fall in the smaller range.  
+-The boxplot of texture mean indicates that malignant tumors generally have higher variation in texture, making them more distinct from benign ones.  
+-The boxplot of concavity worst reveals that malignant tumors have more irregular and jagged cell edges, while benign ones remain smoother.  
 -The heatmap highlights strong correlations between features like radius, perimeter, and area, suggesting these measurements together play a key role in identifying tumor type.
 
 ## How to Run
