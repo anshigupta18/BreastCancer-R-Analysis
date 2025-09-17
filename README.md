@@ -13,6 +13,7 @@ Analysis of benign vs malignant breast tumors using R.
 - [Analysis Steps](#analysis-steps)
 - [Results](#results)
 - [How to Run](#how-to-run)
+- [Data Interpretation](#data-interpretation)
 ## Overview
 This project analyzes a breast cancer dataset to distinguish between **Benign (B)** and **Malignant (M)** tumors.  
 The dataset contains measurements of cell nuclei from breast cancer biopsies, with features such as radius, texture, perimeter, area, smoothness, concavity, and more.  
@@ -50,6 +51,12 @@ The goal of this project is to perform **exploratory data analysis (EDA)** and v
 ![Texture Mean by Diagnosis - Boxplot](images/texture-mean-by-diagnosis-boxplot1.png)
 ![Concavity Worst by Diagnosis - Boxplot](images/Concavity-Worst-by-Diagnosis-boxplot2.png)
 ![Correlation Heatmap](images/heatmap.png)
+
+## Data Interpretation
+-The histogram shows that malignant tumors tend to have larger cell radii, while benign tumors mostly fall in the smaller range.
+-The boxplot of texture mean indicates that malignant tumors generally have higher variation in texture, making them more distinct from benign ones.
+-The boxplot of concavity worst reveals that malignant tumors have more irregular and jagged cell edges, while benign ones remain smoother.
+-The heatmap highlights strong correlations between features like radius, perimeter, and area, suggesting these measurements together play a key role in identifying tumor type.
 
 ## How to Run
 1. Clone this repository  
